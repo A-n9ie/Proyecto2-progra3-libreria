@@ -2,26 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package clases_compartidas.shared_entities;
-
+package Clases_compartidas;
 
 import jakarta.xml.bind.annotation.*;
 
-
 @XmlRootElement
-public class Sinpe extends MetodoPago {
+public class Cheque extends MetodoPago {
 
-    public Sinpe() {
+    public Cheque() {
     }
 
-    public Sinpe(float monto) {
+    public Cheque(float monto) {
         super(monto);
-        this.metodo = "Sinpe";
     }
     
     @Override
     public String[] getDatosPago() {
-        String[] dataPago = {"metodo", "monto", "telefono"};
+        String[] dataPago = {"metodo", "monto", "numcheque"};
         return dataPago;
     }
 
@@ -34,8 +31,8 @@ public class Sinpe extends MetodoPago {
 
     @Override
     public String toString() {
-        return "Metodo de pago -> " + metodo + 
-                "\nMonto pagado: " + monto + "\n"
-                ;}
+        return "Metodo de pago -> " + metodo +
+                "\nMonto pagado: " + monto + "\n";
+    }
     
 }

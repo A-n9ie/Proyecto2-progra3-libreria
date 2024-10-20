@@ -1,4 +1,4 @@
-package clases_compartidas.shared_entities;
+package Clases_compartidas;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;

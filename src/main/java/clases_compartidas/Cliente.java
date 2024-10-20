@@ -1,4 +1,4 @@
-package clases_compartidas.shared_entities;
+package Clases_compartidas;
 
 import jakarta.xml.bind.annotation.*;
 
