@@ -38,6 +38,15 @@
     </dependency>
 
     </dependencies>
+    
+    <distributionManagement>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/A-n9ie/Proyecto2-progra3-libreria</url>
+    </repository>
+</distributionManagement>
+
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>22</maven.compiler.source>
